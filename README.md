@@ -9,7 +9,7 @@ We also benchmarked our method with previous methods and found that our method b
 User can install the software using the command mentioned below:
 
 ```bash
-git clone https://github.com/dhruv16146/AntiCP-2.0
+git clone https://github.com/raghavagps/anticp2
 ```
 Once the zip code is downloaded, user needs to enter the folder named "src" by typing the command as shown below:
 
