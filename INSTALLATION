@@ -1,0 +1,18 @@
+1. Prerequest
+==========
+In order to run this program user should have Python3 and library scikit-learn
+
+2. Download Site
+============
+https://webs.iiitd.edu.in/raghava/anticp2/download.php
+https://github.com/raghavagps/anticp2
+
+3. Unzip/Untar
+
+4. Change dir to anticp2
+
+5. python anticp2.py -i peptide.fa
+
+
+
+
