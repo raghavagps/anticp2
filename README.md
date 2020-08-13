@@ -1,6 +1,19 @@
-# anticp2
+# Anticp2
+Prediction, Design and scan of anticancer prptides
+# Installation
+git clone https://github.com/raghavagps/anticp2
+
+change dir to anticp2
+# Requirement 
+It is developed for python3 and require following libraries, these libraries (pandas, numpy, sklearn, pickle-mixin) can be install using following commands
+pip install pandas
+pip install numpy
+pip install sklearn
+pip install pickle-mixin
+ 
 # Introduction
 AntiCP2 is developed for predicting, desiging and scanning antcancer peptides. More information on AntiCP2 is abvailble from its web server http://webs.iiitd.edu.in/raghava/ . This page provide information about stnadalone version of AntiCP2. Please read/cite following paper for complete information including algorithm behind AntiCP2.
+
 Agrawal P., Bhagat D., Mahalwal M., Sharma N., and Raghava GPS (2020) AntiCP 2.0: an updated model for predicting anticancer peptides. Briefing in Bioinformatics doi: 10.1093/bib/bbaa153
 
 Models: In this program, two models have beeen incorporated for predicting anticancer peptides. Model1 is trained on Anti-Cancer and Anti-Microbial peptides, it is default model. Model2 is trained on Anti-Cancer and Non-Anticalcer (or random peptides) peptides.
