@@ -1,6 +1,6 @@
 1. Prerequest
 ==========
-In order to run this program user should have Python3 and library scikit-learn
+In order to run this program user should have Python3 and library pandas, numpy, sklearn, pickle-mixin
 
 2. Download Site
 ============
