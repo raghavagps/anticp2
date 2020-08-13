@@ -7,10 +7,7 @@ change dir to anticp2
 # Requirement 
 It is developed for python3 and require following libraries, these libraries (pandas, numpy, sklearn, pickle-mixin) can be install using following commands
 
-  pip install pandas 
-  pip install numpy
-  pip install sklearn 
-  pip install pickle-mixin
+pip install pandas    pip install numpy   pip install sklearn     pip install pickle-mixin
  
 # Introduction
 AntiCP2 is developed for predicting, desiging and scanning antcancer peptides. More information on AntiCP2 is abvailble from its web server http://webs.iiitd.edu.in/raghava/ . This page provide information about stnadalone version of AntiCP2. Please read/cite following paper for complete information including algorithm behind AntiCP2.
