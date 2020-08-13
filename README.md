@@ -33,21 +33,29 @@ anticp.py [-h] -i INPUT [-o OUTPUT] [-j {1,2,3}] [-t THRESHOLD]
                   [-w {5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29}]
                   [-d {1,2}]
 
-optional arguments:
+**optional arguments:**
+
   -h, --help            show this help message and exit
+
   -i INPUT, --input INPUT
                         Input: protein or peptide sequence in FASTA format or single sequence per line in single letter code
-  -o OUTPUT, --output OUTPUT
+
+-o OUTPUT, --output OUTPUT
                         Output: File for saving results by default outfile.csv
-  -j {1,2,3}, --job {1,2,3}
+
+-j {1,2,3}, --job {1,2,3}
                         Job Type: 1:predict, 2:design and 3:scan, by default 1
-  -t THRESHOLD, --threshold THRESHOLD
+
+-t THRESHOLD, --threshold THRESHOLD
                         Threshold: Value between 0 to 1 by default 0.5
-  -m {1,2}, --model {1,2}
+
+-m {1,2}, --model {1,2}
                         Model: 1: ACP/AMP, 2: ACP/non-ACP, by default 1
-  -w {5,6,7,..,30}, --winleng
+
+-w {5,6,7,..,30}, --winleng
                         Window Length: 5 to 30 (scan mode only), by default 10
-  -d {1,2}, --display {1,2}
+
+-d {1,2}, --display {1,2}
                         Display: 1:Anticancer peptide, 2: All peptides, by default 1
 
 
