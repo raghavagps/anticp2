@@ -16,7 +16,7 @@ AntiCP2 is developed for predicting, desiging and scanning antcancer peptides. M
 
 Agrawal P., Bhagat D., Mahalwal M., Sharma N., and Raghava GPS (2020) AntiCP 2.0: an updated model for predicting anticancer peptides. Briefing in Bioinformatics doi: 10.1093/bib/bbaa153
 
-Models: In this program, two models have beeen incorporated for predicting anticancer peptides. Model1 is trained on Anti-Cancer and Anti-Microbial peptides, it is default model. Model2 is trained on Anti-Cancer and Non-Anticalcer (or random peptides) peptides.
+** Models: ** In this program, two models have beeen incorporated for predicting anticancer peptides. Model1 is trained on Anti-Cancer and Anti-Microbial peptides, it is default model. Model2 is trained on Anti-Cancer and Non-Anticalcer (or random peptides) peptides.
 
 Modules/Jobs: This program implement three modules (job types); i) Predict: for predictin anticancer peptides, ii) Design: for generating all possible peptides and computing Anti-Cancer potential (score) of peptides, iii) Scan: for creating all possible overlapping peptides of given length (window) and computing Anti-Cancer potential (score) of these overlapping peptides.
 
