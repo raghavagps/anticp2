@@ -25,18 +25,15 @@ Agrawal P., Bhagat D., Mahalwal M., Sharma N., and Raghava GPS (2020) AntiCP 2.0
 
 **Full Usage:** Following is complete list of all options, you may get these options by "anticp2 -h" 
 
+```
 anticp.py [-h] -i INPUT [-o OUTPUT] [-j {1,2,3}] [-t THRESHOLD]
-
                   [-m {1,2}]
-                  
                   [-w {5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29}]
-                  
-                  
                   [-d {1,2}]
-
+```
 
 **optional arguments:**
-
+```
   -h, --help            show this help message and exit
 
   -i INPUT, --input INPUT
@@ -59,7 +56,7 @@ anticp.py [-h] -i INPUT [-o OUTPUT] [-j {1,2,3}] [-t THRESHOLD]
 
 -d {1,2}, --display {1,2}
                         Display: 1:Anticancer peptide, 2: All peptides, by default 1
-
+```
 
 **Input File:** It allow users to provide input in two format; i) FASTA format (standard) and ii) Simple Format. In case of simple format, file should have one one peptide sequence in a single line in single letter code (eg. peptide.seq). Please note in case of predict and design module (job) length of peptide should be upto 50 amino acids, if more than 50, program will take first 50 residues. In case of of scan module, minimum length of protein/peptide sequence should be more than equal to window length (pattern), see peptide.fa . Please note program will ignore peptides having length less than 5 residues (e.g., protein.fa).
 
@@ -71,7 +68,7 @@ anticp.py [-h] -i INPUT [-o OUTPUT] [-j {1,2,3}] [-t THRESHOLD]
 ## AntiCP2 Packakage Files
 
 It contantain following files, brief descript of these files given below
-
+```
 INSTALLATION  	: Installations instructions
 
 LICENSE       	: License information
@@ -91,6 +88,19 @@ peptide.fa	: Example file contain peptide sequenaces in FASTA format
 peptide.seq	: Example file contain peptide sequenaces in simple format
 
 protein.fa	: Example file contain protein sequenaces in FASTA format 
+
+```
+# Contact addresss
+In case of any query please contact 
+```
+
+Prof. G. P. S. Raghava, Head Department of Computational Biology,            
+Indraprastha Institute of Information Technology (IIIT), Okhla Phase III,         
+New Delhi 110020 ; Phone:+91-11-26907444; 
+Email: raghava@iiitd.ac.in            
+Web: http://webs.iiitd.edu.in/raghava/
+
+```
 
 
 
