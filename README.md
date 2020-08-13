@@ -8,7 +8,7 @@ change dir to anticp2
 It is developed for python3 and require following libraries, these libraries (pandas, numpy, sklearn, pickle-mixin) can be install using following commands
 pip install pandas
 pip install numpy
-pip install sklearn
+pip install sklearn 
 pip install pickle-mixin
  
 # Introduction
