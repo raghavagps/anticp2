@@ -54,7 +54,7 @@ optional arguments:
 **Threshold:** User should provide threshold between 0 and 1, please note score is propotional to anti-cancer potential of peptide.
 
 
-##AntiCP2 Packakage Files
+## AntiCP2 Packakage Files
 
 It contantain following files, brief descript of these files given below
 
