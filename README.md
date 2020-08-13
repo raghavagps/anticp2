@@ -16,13 +16,13 @@ AntiCP2 is developed for predicting, desiging and scanning antcancer peptides. M
 
 Agrawal P., Bhagat D., Mahalwal M., Sharma N., and Raghava GPS (2020) AntiCP 2.0: an updated model for predicting anticancer peptides. Briefing in Bioinformatics doi: 10.1093/bib/bbaa153
 
-** Models: ** In this program, two models have beeen incorporated for predicting anticancer peptides. Model1 is trained on Anti-Cancer and Anti-Microbial peptides, it is default model. Model2 is trained on Anti-Cancer and Non-Anticalcer (or random peptides) peptides.
+**Models:** In this program, two models have beeen incorporated for predicting anticancer peptides. Model1 is trained on Anti-Cancer and Anti-Microbial peptides, it is default model. Model2 is trained on Anti-Cancer and Non-Anticalcer (or random peptides) peptides.
 
-Modules/Jobs: This program implement three modules (job types); i) Predict: for predictin anticancer peptides, ii) Design: for generating all possible peptides and computing Anti-Cancer potential (score) of peptides, iii) Scan: for creating all possible overlapping peptides of given length (window) and computing Anti-Cancer potential (score) of these overlapping peptides.
+**Modules/Jobs:** This program implement three modules (job types); i) Predict: for predictin anticancer peptides, ii) Design: for generating all possible peptides and computing Anti-Cancer potential (score) of peptides, iii) Scan: for creating all possible overlapping peptides of given length (window) and computing Anti-Cancer potential (score) of these overlapping peptides.
 
-Minimum USAGE: Minimum ussage is "anticp2 -i peptide.fa" where peptide.fa is a input fasta file. This will predict Anti-Cancer potential of sequence  in fasta format. It will use other parameters by default. It will save output in "outfile.csv" in CSV (comma seperated variables).
+**Minimum USAGE:** Minimum ussage is "anticp2 -i peptide.fa" where peptide.fa is a input fasta file. This will predict Anti-Cancer potential of sequence  in fasta format. It will use other parameters by default. It will save output in "outfile.csv" in CSV (comma seperated variables).
 
-Full Usage: Following is complete list of all options, you may get these options by "anticp2 -h" 
+**Full Usage:** Following is complete list of all options, you may get these options by "anticp2 -h" 
 
 anticp.py [-h] -i INPUT [-o OUTPUT] [-j {1,2,3}] [-t THRESHOLD]
                   [-m {1,2}]
@@ -47,15 +47,15 @@ optional arguments:
                         Display: 1:Anticancer peptide, 2: All peptides, by default 1
 
 
-Input File: It allow users to provide input in two format; i) FASTA format (standard) and ii) Simple Format. In case of simple format, file should have one one peptide sequence in a single line in single letter code (eg. peptide.seq). Please note in case of predict and design module (job) length of peptide should be upto 50 amino acids, if more than 50, program will take first 50 residues. In case of of scan module, minimum length of protein/peptide sequence should be more than equal to window length (pattern), see peptide.fa . Please note program will ignore peptides having length less than 5 residues (e.g., protein.fa).
+**Input File:** It allow users to provide input in two format; i) FASTA format (standard) and ii) Simple Format. In case of simple format, file should have one one peptide sequence in a single line in single letter code (eg. peptide.seq). Please note in case of predict and design module (job) length of peptide should be upto 50 amino acids, if more than 50, program will take first 50 residues. In case of of scan module, minimum length of protein/peptide sequence should be more than equal to window length (pattern), see peptide.fa . Please note program will ignore peptides having length less than 5 residues (e.g., protein.fa).
 
-Output File: Program will save result in CSV format, in case user do not provide output file name, it will be stored in outfile.csv.
+**Output File:** Program will save result in CSV format, in case user do not provide output file name, it will be stored in outfile.csv.
 
-Threshold: User should provide threshold between 0 and 1, please note score is propotional to anti-cancer potential of peptide.
+**Threshold:** User should provide threshold between 0 and 1, please note score is propotional to anti-cancer potential of peptide.
 
 
-AntiCP2 Packakage Files
-=======================
+##AntiCP2 Packakage Files
+
 It contantain following files, brief descript of these files given below
 
 INSTALLATION  	: Installations instructions
