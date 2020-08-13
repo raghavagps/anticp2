@@ -16,7 +16,7 @@ pip install sklearn
 pip install pickle-mixin
  
 # Introduction
-AntiCP2 is developed for predicting, desiging and scanning antcancer peptides. More information on AntiCP2 is abvailble from its web server http://webs.iiitd.edu.in/raghava/ . This page provide information about stnadalone version of AntiCP2. Please read/cite following paper for complete information including algorithm behind AntiCP2.
+AntiCP2 is developed for predicting, desiging and scanning antcancer peptides. More information on AntiCP2 is abvailble from its web server http://webs.iiitd.edu.in/raghava/anticp2/ . This page provide information about stnadalone version of AntiCP2. Please read/cite following paper for complete information including algorithm behind AntiCP2.
 
 Agrawal P., Bhagat D., Mahalwal M., Sharma N., and Raghava GPS (2020) AntiCP 2.0: an updated model for predicting anticancer peptides. Briefing in Bioinformatics doi: 10.1093/bib/bbaa153
 
@@ -29,9 +29,14 @@ Agrawal P., Bhagat D., Mahalwal M., Sharma N., and Raghava GPS (2020) AntiCP 2.0
 **Full Usage:** Following is complete list of all options, you may get these options by "anticp2 -h" 
 
 anticp.py [-h] -i INPUT [-o OUTPUT] [-j {1,2,3}] [-t THRESHOLD]
+
                   [-m {1,2}]
+                  
                   [-w {5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29}]
+                  
+                  
                   [-d {1,2}]
+
 
 **optional arguments:**
 
