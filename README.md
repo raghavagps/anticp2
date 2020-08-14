@@ -90,7 +90,7 @@ peptide.seq	: Example file contain peptide sequenaces in simple format
 protein.fa	: Example file contain protein sequenaces in FASTA format 
 
 ```
-# Contact addresss
+# Address for contact
 In case of any query please contact 
 ```
 Prof. G. P. S. Raghava, Head Department of Computational Biology,            
