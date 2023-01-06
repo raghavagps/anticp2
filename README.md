@@ -1,5 +1,10 @@
-# Anticp2
-Prediction, Design and scan of anticancer prptides
+# Anticp2: Prediction, Design and scan of anticancer prptides
+AntiCP 2.0 is an updated version of AntiCP, developed to predict and design anticancer peptides with high accuracy. This study utilize largest possible dataset of anticancer and non-anticancer peptides. Main dataset consists of experimentally validated 861 anticancer peptides and 861 non-anticancer or validated antimicrobial peptides. Alternate dataset comprises of 970 anti-cancer peptides and 970 non-anticancer peptides (randomly pickup from Swiss-Prot). 
+# Reference
+Agrawal P., Bhagat D., Mahalwal M., Sharma N., Raghava G.P.S. (2020), AntiCP 2.0: an updated model for predicting anticancer peptides, <a href="https://doi.org/10.1093/bib/bbaa153">Briefings in Bioinformatics, bbaa153</a> 
+# Web Server
+https://webs.iiitd.edu.in/raghava/anticp2/
+
 # Installation
 git clone https://github.com/raghavagps/anticp2
 
