@@ -5,6 +5,9 @@ Agrawal P., Bhagat D., Mahalwal M., Sharma N., Raghava G.P.S. (2020), AntiCP 2.0
 # Web Server
 https://webs.iiitd.edu.in/raghava/anticp2/
 
+## datasets folder
+Contain all the datasets
+
 ## PIP Installation
 PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
 ```
